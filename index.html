@@ -173,7 +173,7 @@
           <p>Now I apply that same reliability to software: tools that people can trust, with limits and checks built in.</p>
         </div>
         <div class="card b-stat">
-          <div class="stat"><strong>5</strong><span>projects built</span></div>
+          <div class="stat"><strong>6</strong><span>projects built</span></div>
           <div class="stat"><strong>Oct '22</strong><span>started at Amazon</span></div>
           <div class="stat"><strong>Dec '26</strong><span>B.A. in CS, FAU</span></div>
         </div>
@@ -254,6 +254,15 @@
           </div>
         </article>
 
+        <article class="card b-proj">
+          <h3>WatchDog-MCP: Discord Moderation Agent</h3>
+          <p>An LLM-driven Discord moderation agent that polls a server, scans messages for phishing indicators, and escalates from message deletion to member timeouts based on a tracked violation count.</p>
+          <div class="tags"><span>Python</span><span>fast-agent</span><span>Claude Sonnet 4.5</span><span>MCP</span><span>Discord API</span></div>
+          <p class="res">Red-teamed it with multiple prompt injection techniques (pretexting, spoofed tool output, fake policy overrides); the agent held its policy in every case, though testing also surfaced a silent tool-execution bug where a missing message ID let flagged content stay live despite a reported delete.</p>
+          <div class="links">
+            <a href="https://github.com/Jwalcott02/gensec-Walcott-Z23692334/tree/main/hw4" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
 
       </div>
     </section>
