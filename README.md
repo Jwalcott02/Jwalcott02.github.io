@@ -1,6 +1,6 @@
 # Justice Walcott | Developer Portfolio
 
-**Live site: [jwalcott02.github.io](https://jwalcott02.github.io)**
+**Live site:** [jwalcott02.github.io](https://jwalcott02.github.io)
 
 My personal portfolio: software engineering and applied AI projects, experience, and live GitHub activity. Built as a single, dependency-free page and hosted free on GitHub Pages.
 
@@ -20,19 +20,21 @@ Computer science student at Florida Atlantic University (B.A. expected December 
 ## Featured projects
 
 | Project | What it does | Stack |
-| --- | --- | --- |
-| [FAU CS Unofficial Guide](https://github.com/Jwalcott02/FAU-RAG) | Question-answering assistant for CS students, built on retrieval | Python, Gradio, ChromaDB |
+|---|---|---|
+| FAU CS Unofficial Guide | Question-answering assistant for CS students, built on retrieval | Python, Gradio, ChromaDB |
 | Conversational RAG Chatbot | Chatbot with session memory and source citations, deployed on a Google Cloud VM | LangChain, ChromaDB, Gemini, Chainlit |
-| [FitFindr](https://github.com/Jwalcott02/ai201-project2-fitfindr-starter) | Multi-tool LLM agent with a planning loop that branches on tool output | Python, Groq, Gradio |
-| [Provenance Guard](https://github.com/Jwalcott02/Provenance-Guard) | Content-safety API: classification, confidence scoring, transparency labels, rate limiting, and appeals | Flask, Groq, Flask-Limiter |
-| [TakeMeter](https://github.com/Jwalcott02/ai201-project3-takemeter) | Fine-tuned DistilBERT classifier benchmarked against a zero-shot LLM (72.7% vs. 90.9% accuracy) | DistilBERT, Groq, Google Colab |
+| FitFindr | Multi-tool LLM agent with a planning loop that branches on tool output | Python, Groq, Gradio |
+| Provenance Guard | Content-safety API: classification, confidence scoring, transparency labels, rate limiting, and appeals | Flask, Groq, Flask-Limiter |
+| TakeMeter | Fine-tuned DistilBERT classifier benchmarked against a zero-shot LLM (72.7% vs. 90.9% accuracy) | DistilBERT, Groq, Google Colab |
+| WatchDog-MCP | LLM-driven Discord moderation agent that scans for phishing and escalates from deletion to timeouts; red-teamed against prompt injection | Python, fast-agent, Claude Sonnet 4.5, MCP, Discord API |
+| Network Traffic Analyzer & Visualizer | Captures and visualizes live network traffic; flags port scans, brute-force attempts, data exfiltration, and DNS tunneling | Python, Scapy, Matplotlib |
 
 ## How it's built
 
 - One `index.html` file with inline HTML, CSS, and vanilla JavaScript. No framework, no build step.
 - A canvas-based flowing-particle background that turns off for visitors who prefer reduced motion.
 - Responsive layout that works on phones, tablets, and desktops.
-- Live data from the public [GitHub REST API](https://docs.github.com/rest), with a graceful fallback if the API is unavailable.
+- Live data from the public GitHub REST API, with a graceful fallback if the API is unavailable.
 
 ## Run it locally
 
@@ -52,6 +54,6 @@ No install needed. To serve it locally instead, run `python3 -m http.server` in 
 
 ## Contact
 
-- Email: [justicewalcott@outlook.com](mailto:justicewalcott@outlook.com)
-- LinkedIn: [justice-w-a673451b5](https://www.linkedin.com/in/justice-w-a673451b5/)
-- GitHub: [@Jwalcott02](https://github.com/Jwalcott02)
+- **Email:** justicewalcott@outlook.com
+- **LinkedIn:** [justice-w-a673451b5](https://www.linkedin.com/in/justice-w-a673451b5/)
+- **GitHub:** [@Jwalcott02](https://github.com/Jwalcott02)
